@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Codigo en 60s</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+/* Layout: single reading column, monospace masthead echoing the app icon's timer */
+:root{--bg:#f6f7fb;--fg:#1a1c2c;--muted:#5b6078;--rule:#d9dcea;--accent:#0b8f8b;--hot:#d6224a;
+--mono:"JetBrains Mono",Consolas,monospace;--serif:"Source Serif 4",Georgia,serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12142a;--fg:#e9eaf4;--muted:#a3a7c2;--rule:#2b2f4d;--accent:#25f4ee;--hot:#fe2c55;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12142a;--fg:#e9eaf4;--muted:#a3a7c2;--rule:#2b2f4d;--accent:#25f4ee;--hot:#fe2c55;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:17px/1.65 var(--serif);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+main{max-width:66ch;margin:0 auto;padding-block:48px 72px}
+.mast{font-family:var(--mono);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);display:flex;gap:10px;align-items:center}
+.mast b{color:var(--accent)} .mast i{font-style:normal;color:var(--hot)}
+h1{font-family:var(--mono);font-weight:700;font-size:clamp(28px,5vw,40px);line-height:1.15;margin:14px 0 6px;text-wrap:balance}
+.meta{color:var(--muted);font-size:15px;margin:0 0 28px;padding-bottom:20px;border-bottom:1px solid var(--rule)}
+h2{font-family:var(--mono);font-size:17px;font-weight:700;margin:32px 0 8px;color:var(--fg)}
+p,li{margin:0 0 12px} ul{padding-left:22px}
+code{font-family:var(--mono);font-size:.88em;color:var(--accent)}
+a{color:var(--accent)} a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--rule);font-family:var(--mono);font-size:13px;color:var(--muted)}
+</style>
+<link rel="icon" href="icon.png">
+</head>
+<body>
+<main>
+<div class="mast"><b>{ 60s }</b><span>Codigo en 60s Publisher</span><i>●</i></div>
+<h1>Codigo en 60s</h1>
+<p class="meta">Short videos that explain coding interview problems in about a minute.</p>
+<p><img src="icon.png" alt="Codigo en 60s logo" width="160" height="160"></p>
+<h2>Codigo en 60s Publisher</h2>
+<p>A personal desktop tool that uploads and publishes the creator's own educational videos to the TikTok account <code>@codigoen60s</code>, using TikTok's official Login Kit and Content Posting API. It is not offered to other users.</p>
+<h2>Links</h2>
+<ul>
+<li><a href="terms.html">Terms of Service</a></li>
+<li><a href="privacy.html">Privacy Policy</a></li>
+</ul>
+<h2>Contact</h2>
+<p><code>codigoen60s@gmail.com</code></p>
+<footer>Codigo en 60s · Educational coding content · Not an official TikTok product</footer>
+</main>
+</body>
+</html>
